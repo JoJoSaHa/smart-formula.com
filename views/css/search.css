@@ -1,0 +1,32 @@
+div.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5%;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: rgb(63, 63, 63);
+}
+
+nav.search-bar{
+    flex: 5;
+    display: flex;
+    margin-left: 2%;
+}
+
+.search-bar > form{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar > form > input{
+    flex: 5;
+    border-radius: 25px;
+    padding-left: 2%;
+}
+
+
+.search-bar > form > label{
+    flex: 1;
+}
